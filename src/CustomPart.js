@@ -1,8 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
+// Normalizes string as a slug - a string that is safe to use
+// in both URLs and html attribute
 import slugify from "slugify";
 
-export default class Part extends Component {
-  render(props) {
+export default class Part extends React.Component {
+  render() {
     return (
       <fieldset key={this.props.featureHash} className="feature">
         <legend className="feature__name">

@@ -1,7 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import Customizer from "./Customizer";
 import Cart from "./Cart";
-
 import "./App.css";
 
 const USCurrencyFormat = new Intl.NumberFormat("en-US", {
@@ -9,7 +8,7 @@ const USCurrencyFormat = new Intl.NumberFormat("en-US", {
   currency: "USD",
 });
 
-export default class App extends Component {
+export default class App extends React.Component {
   state = {
     selected: {
       Processor: {

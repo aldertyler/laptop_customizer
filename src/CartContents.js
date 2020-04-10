@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 
-export default class CartItems extends Component {
+export default class CartItems extends React.Component {
   render(props) {
     return (
       <div className="summary__option" key={this.props.featureHash}>

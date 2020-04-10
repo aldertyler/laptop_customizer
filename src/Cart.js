@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import React from "react";
 import CartContents from "./CartContents";
-export default class Cart extends Component {
+export default class Cart extends React.Component {
   render() {
     const total = Object.keys(this.props.selected).reduce(
       (acc, curr) => acc + this.props.selected[curr].cost,

@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import CustomPart from "./CustomPart";
 
-export default class Customize extends Component {
+export default class Customize extends React.Component {
   render(props) {
     return (
       <div className="App">
