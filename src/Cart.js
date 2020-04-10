@@ -1,5 +1,6 @@
 import React from "react";
 import CartContents from "./CartContents";
+
 export default class Cart extends React.Component {
   render() {
     const total = Object.keys(this.props.selected).reduce(
