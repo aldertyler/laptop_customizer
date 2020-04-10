@@ -2,7 +2,7 @@ import React from "react";
 import CustomPart from "./CustomPart";
 
 export default class Customize extends React.Component {
-  render(props) {
+  render() {
     return (
       <div className="App">
         <h2>Customize Your Laptop</h2>

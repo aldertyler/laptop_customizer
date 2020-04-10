@@ -1,7 +1,7 @@
 import React from "react";
 
 export default class CartItems extends React.Component {
-  render(props) {
+  render() {
     return (
       <div className="summary__option" key={this.props.featureHash}>
         <div className="summary__option__label">{this.props.feature} </div>
